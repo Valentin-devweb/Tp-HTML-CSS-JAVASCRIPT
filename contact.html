@@ -23,9 +23,9 @@
             </a>
           </div>
     </nav>
-    <h1>Nous contacter</h1>
     <section>
         <form method="post" action="form.php">
+            <h1 class="tcontact">Nous contacter</h1>
             <div class="champ">
               <label for="pseudo">Entrez un pseudonyme : </label>
               <input type="text" id="pseudo">
@@ -46,6 +46,22 @@
                 <label for="pseudo">Champs de sélection du pays :</label>
                 <input type="text" id="pays">
             </div>
+            <p>Vous avez entendu parler de nous comment?</p>
+
+            <SELECT name="infos" size="3">
+                <OPTION>Internet
+                <OPTION>Réseaux sociaux
+                <OPTION>Radio
+                <OPTION>Télévision
+                <OPTION>Amis
+                <OPTION>Autres
+                </SELECT>
+            
+            <p>Ecrivez votre message</p>
+            <label for="message"></label>
+
+            <textarea id="message" name="message" rows="5" cols="33">
+            </textarea>
             <div class="champ">
                 <input type="submit" value="Envoyer">
             </div>
