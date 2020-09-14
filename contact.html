@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tp-HTML-CSS-JAVASCRIPT/style/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav> <!-- NAVIGATION -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Accueil</a>
+            <a href="press.html">Press</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="join.html">Nous rejoindre</a>
+            <a href="#contact">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="javascript:void(0);" class="icon" onclick="navBurger()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </nav>
+    <h1>Nous contacter</h1>
+    <section>
+        <form method="post" action="form.php">
+            <div class="champ">
+              <label for="pseudo">Entrez un pseudonyme : </label>
+              <input type="text" id="pseudo">
+            </div>
+            <div class="champ">
+              <label for="pass">Entrez un mot de passe :</label>
+              <input type="password" id="pass">
+            </div>
+            <div class="champ">
+              <label for="mail">Entrez un mail :</label>
+              <input type="email" id="mail">
+            </div>
+            <div class="champ">
+                <label for="pseudo">Code postal :</label>
+                <input type="text" id="postal">
+            </div>
+            <div class="champ">
+                <label for="pseudo">Champs de sélection du pays :</label>
+                <input type="text" id="pays">
+            </div>
+            <div class="champ">
+                <input type="submit" value="Envoyer">
+            </div>
+          </form>
+    </section>
+
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
