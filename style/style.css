@@ -120,5 +120,8 @@ img {
     text-align: left;
   }
 }
-
+li {
+  margin: 5%;
+  text-align: center;
+}
 /* QUENTIN FIN PARTIE */
