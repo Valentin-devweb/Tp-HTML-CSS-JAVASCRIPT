@@ -77,10 +77,28 @@
   background-color: #4caf4f5d;
   border-radius: 10px;
 }
+.imgW{
+  width: 13%;
+  border-radius: 50%;
+}
+.padR{
+  padding: 1%;
+}
+.ulS{
+  text-align: center;
+  list-style: none;
+}
+.ulS a{
+  color:black;
+  text-decoration: none;
+}
+.ulS a:hover{
+  text-decoration: underline;
+}
 
 
 /* FOOTER */
-footer{
+.foot{
   width: 100%;
   background-color: #a6bb85;
 }
@@ -104,7 +122,7 @@ footer{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: #4a4839; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 11px; /* Some padding */

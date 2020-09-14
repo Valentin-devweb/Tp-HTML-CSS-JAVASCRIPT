@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /> 
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
   <nav> <!-- NAVIGATION -->
     <div class="topnav" id="myTopnav">
-      <a href="#home">Accueil</a>
-      <a href="#news" class="marginNav">Presse</a>
-      <a href="#contact">Equipe</a>
-      <a href="#about">Nous rejoindre</a>
-      <a href="#about">Contact</a>  
-      <a href="#about">FAQ</a>
+      <a href="index.html">Accueil</a>
+      <a href="presse.html" class="marginNav">Presse</a>
+      <a href="equipe.html">Equipe</a>
+      <a href="join.html">Nous rejoindre</a>
+      <a href="contact.html">Contact</a>  
+      <a href="faq.html">FAQ</a>
       <a href="javascript:void(0);" class="icon" onclick="navBurger()">
         <i class="fas fa-bars"></i></a>
       </div>
@@ -23,7 +25,7 @@
   <main>
     <div class="flex center">
       <img src="./image/logo1.png" alt="Logo" class="logo">
-      <div class="clm">
+      <div class="clm padR">
         <h1>Plant à Bifton</h1>
         <p>Que la florescence de l'argent naisse !</p>
       </div>
@@ -35,21 +37,23 @@
         <img class="two" src="./image/planteurpro.jpg" />
         <img class="three" src="./image/pot)-billet3.jpg" />
       </div>
-    </div>  
-    <p class="textCentre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto beatae in numquam totam molestiae vitae sed repellendus tempore maiores assumenda, eum voluptatibus. Porro itaque sit, delectus officiis consequatur veniam consequuntur odit officia rem ipsa id et amet dolorem eius impedit perferendis accusamus modi blanditiis tempora explicabo deserunt libero dolore!</p>
-    <p class="textCentre">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt dolor consectetur, necessitatibus voluptatum perferendis, quia nemo ratione alias excepturi omnis itaque porro. Dolorem porro distinctio consequuntur quis fugit qui!
-    </p>
+    </div> 
+    <section>
+      <p class="textCentre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto beatae in numquam totam molestiae vitae sed repellendus tempore maiores assumenda, eum voluptatibus. Porro itaque sit, delectus officiis consequatur veniam consequuntur odit officia rem ipsa id et amet dolorem eius impedit perferendis accusamus modi blanditiis tempora explicabo deserunt libero dolore!</p>
+      <p class="textCentre">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt dolor consectetur, necessitatibus voluptatum perferendis, quia nemo ratione alias excepturi omnis itaque porro. Dolorem porro distinctio consequuntur quis fugit qui!
+      </p>
+    </section> 
 
   </main>
 
-<footer class="flex">
+<footer class="flex foot">
   <div class="ico flex">
     <i class="fab fa-facebook"></i>
     <i class="fab fa-twitter"></i>
   </div>
   <p class="selfish">Copyright ©</p>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">⇪</button>
 </footer>
   <script src="script/script.js"></script>
 </body>
