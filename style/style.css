@@ -64,6 +64,9 @@
   align-items: center;
   padding: 1%;
 }
+.centre{
+  text-align: center;
+}
 .clm{
   display: flex;
   flex-flow: column wrap;
@@ -81,6 +84,25 @@
   width: 13%;
   border-radius: 50%;
 }
+.imgw100{
+  width: 100%;
+  border-radius: 10px 10px 0 0 ;
+}
+.space{
+  justify-content: space-around;
+}
+.card{
+  width: 30%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+.rip{
+  align-items: center;
+}
+.full{
+  width: 100%;
+}
 .padR{
   padding: 1%;
 }
@@ -96,7 +118,9 @@
   text-decoration: underline;
 }
 
-
+.heightP{
+height: 40vw;
+}
 /* FOOTER */
 .foot{
   width: 100%;
