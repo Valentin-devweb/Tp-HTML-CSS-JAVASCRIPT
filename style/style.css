@@ -95,6 +95,9 @@
 	padding: 1%;
 	align-self: center;
 }
+.pLarge{
+	font-size: large;
+}
 .space{
   justify-content: space-around;
 }
@@ -406,6 +409,12 @@ li a{
 	.bot2{
 		bottom: 0px;
 	}
+	.imgwx{
+		width: 70%;
+	}
+	.ico{
+		width: 20%;
+	}
 
 }
 @media screen and (min-width:760px){
@@ -447,6 +456,9 @@ li a{
 	.bot3{
 		bottom:-325px;
 	}
+	.bot4{
+		bottom: -100px;
+	}
 }
 @media screen and (min-width:1430px){
 	.marginNav{
@@ -464,6 +476,10 @@ li a{
 	.bot3{
 		bottom: 0px;
 	}
+	.bot4{
+		bottom: -321px;
+	}
+
 }
 
 
