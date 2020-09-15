@@ -86,7 +86,14 @@
 }
 .imgw100{
   width: 100%;
-  border-radius: 10px 10px 0 0 ;
+}
+.imgwx{
+	width: 50%;
+	border-radius: 10px;
+}
+.agri{
+	padding: 1%;
+	align-self: center;
 }
 .space{
   justify-content: space-around;
@@ -117,14 +124,33 @@
 .ulS a:hover{
   text-decoration: underline;
 }
-
-.heightP{
-height: 40vw;
+.comm{
+	margin-top: 7%;
 }
+li{
+	margin-bottom: 1%;
+}
+li a{
+	color: black;
+	text-decoration: none;
+}
+.marjbot{
+	margin-bottom: 2%;
+}
+
+
 /* FOOTER */
 .foot{
   width: 100%;
   background-color: #a6bb85;
+  position: absolute;
+  bottom: 0;
+}
+.bot{
+	bottom: -315px;
+}
+.bot2{
+	bottom: -80px;
 }
 .ico{
   font-size: 25px;
@@ -137,6 +163,11 @@ height: 40vw;
 .selfish{
   margin-left: 40%;
 }
+
+
+/* 
+
+
 /* BOUTON TOP */
 #myBtn {
   display: none; /* Hidden by default */
@@ -338,3 +369,101 @@ height: 40vw;
 	animation-direction: forwards;
 	object-fit: cover;
 }
+
+/* MEDIA QUERIE */
+@media screen and (min-width:420px){
+	.marginNav{
+		margin-left: 0;
+	}
+	.bot{
+		bottom: -600px;
+	}
+	.container{
+		width: auto;
+	}
+	.logo{
+		width: 40%;
+	}
+	.topAccueil{
+		margin-top: 7%;
+	}
+	.clm{
+		width: 25%;
+	}
+	.mediclm{
+		width: 40%;
+		margin-left: 2%;
+	}
+	.imgW{
+		width: 55%;
+	}
+	.comm{
+		margin-top: 10%;
+	}
+	.card{
+		width: 45%;
+	}
+	.bot2{
+		bottom: 0px;
+	}
+
+}
+@media screen and (min-width:760px){
+	.marginNav{
+		margin-left: 31%;
+	}
+	.imgW{
+		width: 30%;
+	}
+	.comm{
+		margin-top: 15%;
+	}
+	.bot3{
+		bottom: -200px;
+	}
+	.logo{
+		width: 22%;
+	}
+	.bot{
+		bottom: -460px;
+	}
+}
+@media screen and (min-width:1020px){
+	.marginNav{
+		margin-left: 48%;
+	}
+	.bot{
+		bottom: -330px;
+	}
+	.topAccueil{
+		margin-top: 3%;
+	}
+	.logo{
+		width: 15%;
+	}
+	.comm{
+		margin-top: 5%;
+	}
+	.bot3{
+		bottom:-325px;
+	}
+}
+@media screen and (min-width:1430px){
+	.marginNav{
+		margin-left: 63%;
+	}
+	.bot{
+		bottom: -385px;
+	}
+	.imgW{
+		width: 20%;
+	}
+	.card{
+		width: 30%;
+	}
+	.bot3{
+		bottom: 0px;
+	}
+}
+
+
