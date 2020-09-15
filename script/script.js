@@ -31,3 +31,10 @@ $(function(){
   }; // fin du for
 });
 
+// // 
+// var question = document.getElementById('question');
+// question.addEventListener('click', function(e) {
+//   if (e.target.id=='0'){
+//     document.getElementById('premiere').setAttribute('class', 'backcolor')
+//   }
+// });
