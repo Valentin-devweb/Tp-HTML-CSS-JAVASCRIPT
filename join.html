@@ -3,28 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Tp-HTML-CSS-JAVASCRIPT/style/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
     <nav> <!-- NAVIGATION -->
         <div class="topnav" id="myTopnav">
-            <a href="#accueil" class="active">Accueil</a>
-            <a href="#press">Press</a>
-            <a href="#equipe">Equipe</a>
-            <a href="#join">Nous rejoindre</a>
-            <a href="#join">Contact</a>
-            <a href="#join">FAQ</a>
+            <a href="index.html">Accueil</a>
+            <a href="presse.html" class="marginNav">Presse</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="join.html">Nous rejoindre</a>
+            <a href="contact.html">Contact</a>  
+            <a href="faq.html">FAQ</a>
             <a href="javascript:void(0);" class="icon" onclick="navBurger()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
+            <i class="fas fa-bars"></i></a>
+        </div>
     </nav>
 
+    <main class="flex space">
+        <h1 class="full centre">Participez à l'aventure</h1>
+        <div class="card centre">
+            <h2>Agriculteur</h2>
+            <img src="./images/Retraite-agriculteur.jpg" alt="" class="imgw100">
+            <div class="rip flex center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, molestias.</p>
+                <a href="agriculteur.html">En savoir plus</a>
+            </div>
+        </div>
+        <div class="card centre">
+            <h2>Secretaire</h2>
+            <img src="./images/secrétaire-commerciale.jpg" alt="" class="imgw100">
+            <div class="rip flex center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, molestias.</p>
+                <a href="secretaire.html">En savoir plus</a>
+            </div>
+        </div>
+        <div class="card centre">
+            <h2>Banquier</h2>
+            <img src="./images/banquier.jpg" alt="" class="imgw100">
+            <div class="rip flex center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, molestias.</p>
+                <a href="banquier.html">En savoir plus</a>
+            </div>
+        </div>
+    </main>
 
 
-    <script src="script/script.js"></script>
+
+
+    <footer class="flex foot bot3">
+        <div class="ico flex">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">⇪</button>
+    </footer>
+<script src="script/script.js"></script>
 </body>
 </html>
